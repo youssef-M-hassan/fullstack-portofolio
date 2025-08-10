@@ -1,0 +1,42 @@
+div,p ,span {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+div >h1{
+    text-align: center;
+}
+.none-bullet-list{
+    list-style-type: none;
+}
+#linksbar li>a{
+    color: red;
+    background-color: pink;
+    text-decoration: none;  
+}
+#linksbar li>a:hover{
+    cursor:crosshair;
+}
+#content > h2{
+    font-weight: bold;
+    font-size: 12px;
+
+}
+#loginform{
+    border: 2px dashed rgb(20, 70, 60);
+    color: aqua;
+    
+}
+input[type="text"]{
+    background-color: yellow;
+}
+input[type="text"]:focus{
+    background-color: white;
+}
+.tabled-borderd{display:table-cell;
+    padding: 5px;
+    border: solid 2px black;
+
+}
+#aboutus::after{
+    content: "read this";
+    color: yellow;
+}

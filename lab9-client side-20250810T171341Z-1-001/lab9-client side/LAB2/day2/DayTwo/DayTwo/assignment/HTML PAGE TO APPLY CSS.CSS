@@ -1,0 +1,28 @@
+p{
+    color: red;
+}
+p,div{
+    font-size: large;
+}
+#mydiv>p.mainclass{
+    font-weight: bold;
+    color: black;
+    font-size: x-large;
+}
+div p{
+    color: blue;
+}
+
+input[type="text"].myclass{
+    border: solid;
+}
+div ~ span{
+    font-style:normal;
+    color: purple;
+}
+p.myclass{
+    color:rgb(3, 44, 79);
+}
+#mydiv{
+    color:brown;
+}

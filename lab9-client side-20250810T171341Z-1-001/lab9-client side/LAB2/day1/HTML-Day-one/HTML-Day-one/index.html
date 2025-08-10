@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <!-- responsiveness -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- SEO -->
+    <meta
+      name="description"
+      content="this is the first lecture on client-side technologies"
+    />
+    <meta name="author" content="Omar Mosleh" />
+    <title>Python Day One</title>
+    <!-- <style>
+      
+      
+    </style> -->
+    <!--  
+    <script>
+        alert("Welcome Day one")
+    </script> -->
+  </head>
+  <body>
+    <!-- h1 use it only once -->
+    <h1>Hello Day One Python</h1>
+    <!-- ?? -->
+    <!-- style attr. is CSS -->
+    <h2>Hello Day One <span id="red" style="font-size: 43px">Python </span></h2>
+    <h3>Hello Day One Python</h3>
+    <h4>Hello Day One Python</h4>
+    <h5>Hello Day One Python</h5>
+    <h6>Hello Day One Python</h6>
+    <!-- span is an inline element  -->
+    <span>this is not important</span>
+    <span>this is not important</span>
+    <p>
+      hi hamada <span class="green"> welcome to ITI</span> we are very happy to
+      have you here
+    </p>
+    <p>
+      Hello
+      <strong> Omar </strong>
+      <b> Mosleh </b>
+    </p>
+    <p>
+      <!-- character entities -->
+      Hello&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;welcome
+      <em> Omar </em>
+      <i> Mosleh hussein</i>
+    </p>
+    <p>hi hamada</p>
+
+    <a href="www.google.com">visit google</a>
+    <a href="./pages/page-two.html" target="_blank">Take me to page-two</a>
+    <!-- you can add subject and body by default in this tag-->
+    <a href="mailto:hussein99@gmail.com">send mail to hussein</a>
+    <br />
+    <hr />
+    <span>hello python</span>
+    <br />
+    <span>hello ITI</span>
+
+    <img
+      src="https://images.pexels.com/photos/574071/pexels-photo-574071.jpeg"
+      width="150px"
+      alt="person using laptop img"
+    />
+    <img
+      src="./assets/pexels-goumbik-574071.jpg"
+      width="250px"
+      alt="person using laptop img"
+    />
+
+    <!-- <img
+      src="./be91e7de0d9754af74e30e812d4cb573.jpg"
+      alt="person using laptop img"
+      usemap="#mymap"
+    />
+    <map name="mymap">
+      <area shape="rect" coords="" href="" alt="">
+      <area shape="circle" coords="" href="" alt="">
+      <area shape="poly" coords="" href="" alt="">
+    </map> -->
+
+    <img src="be91e7de0d9754af74e30e812d4cb573.jpg" usemap="#image-map" />
+    <map name="image-map">
+      <area
+        alt="Google"
+        title="Google"
+        href="https://www.facebook.com"
+        coords="12,21,252,467"
+        shape="rect"
+      />
+      <area
+        target="_blank"
+        title="Facebook"
+        title="Facebook"
+        href="https://www.google.com"
+        coords="590,578,134"
+        shape="circle"
+      />
+      <area
+        alt="W3"
+        title="W3"
+        href="https://www.w3schools.com/"
+        coords="342,371,382,370,379,342,350,344,342,356,339,363"
+        shape="poly"
+      />
+    </map>
+
+    <iframe
+      src="./pages/page-two.html"
+      frameborder="1"
+      width="300px"
+      height="200px"
+    ></iframe>
+
+    <iframe
+      width="860"
+      height="400"
+      src="https://www.youtube.com/embed/YEL5G4LlQPM?si=pIeihtSvDh-wx2l9"
+      title="YouTube video player"
+      frameborder="5"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      referrerpolicy="strict-origin-when-cross-origin"
+      allowfullscreen
+    ></iframe>
+    <br />
+    <iframe
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3410.9164353499264!2d29.967850375923973!3d31.250736560413504!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14f5c53477fe38d7%3A0xb8c731a3dd8b1eb0!2s428%20El-Gaish%20Rd%2C%20San%20Stefano%2C%20El%20Raml%201%2C%20Alexandria%20Governorate%205452057!5e0!3m2!1sen!2seg!4v1753518781677!5m2!1sen!2seg"
+      width="330"
+      height="200"
+      style="border: 0"
+      allowfullscreen=""
+      loading="lazy"
+      referrerpolicy="no-referrer-when-downgrade"
+    ></iframe>
+
+    <ul type="circle">
+      <li>one</li>
+      <li>two</li>
+      <li>three</li>
+      <li>four</li>
+      <li>five</li>
+    </ul>
+    <ol type="I" start="3">
+      <li>one</li>
+      <li>two</li>
+      <li>three</li>
+      <li>four</li>
+      <li>five</li>
+    </ol>
+
+    <dl>
+      <dt>term A</dt>
+      <dd>this is Term A's definition</dd>
+      <dt>HTML</dt>
+      <dd>hyper text markup language</dd>
+      <dt>CSS</dt>
+      <dd>cascading style sheets</dd>
+    </dl>
+
+    <hr />
+    <hr />
+    <table
+      border="1px"
+      cellpadding="10px"
+      cellspacing="3px"
+      bgcolor="#fff"
+      bordercolor="red"
+    >
+      <caption>
+        client side course
+      </caption>
+      <thead>
+        <tr>
+          <th>person</th>
+          <th>interest</th>
+          <th>Age</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th scope="row">Omar</th>
+          <td>web</td>
+          <td>28</td>
+        </tr>
+        <tr>
+          <td>salma</td>
+          <td>new student</td>
+        </tr>
+        <tr>
+          <td>kareem</td>
+          <td width="50%">linux</td>
+          <td>24</td>
+        </tr>
+        <tr>
+          <td>hassan</td>
+          <!-- search for valign -->
+          <td colspan="2" align="center">new student</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <br />
+
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde totam vero
+      perferendis laborum quos iure quidem accusamus. Vero mollitia, corporis
+      quia maxime, assumenda error dicta asperiores quo optio vitae, laudantium
+      voluptatem quasi dolor est fuga labore similique! Soluta rem expedita
+      consequatur, perferendis nihil ad eaque unde vitae odio nesciunt? Incidunt
+      itaque dolor deserunt culpa illum architecto provident enim tenetur
+      voluptate fugit assumenda quisquam modi est voluptatibus expedita unde
+      cupiditate eveniet officia repellendus illo minus, omnis quod laborum? Rem
+      quas impedit voluptatum natus sint sed eligendi nobis iure assumenda magni
+      asperiores optio, commodi aliquid, numquam unde, nihil totam. Ipsum facere
+      iste, earum nulla sapiente, eaque, assumenda repellat velit consequuntur
+      ut ducimus provident voluptate repudiandae harum quasi iusto natus dolorem
+      ipsa modi eius voluptates necessitatibus libero asperiores dolorum?
+      Cupiditate est quia omnis labore neque fugit libero quod saepe culpa
+      doloremque? Doloribus odit suscipit, corporis harum deserunt velit
+      perspiciatis soluta fugiat alias. Deleniti voluptatibus quas at autem
+      soluta enim tenetur nisi vel nemo molestiae blanditiis, labore in delectus
+      maxime accusantium rerum ad minus, cum voluptate non perferendis aliquam
+      quasi? Laboriosam beatae fugit dolore, ut consequatur explicabo voluptas
+      ducimus perferendis blanditiis unde exercitationem odio nemo illum libero
+      odit soluta. Rerum officia iste repudiandae nihil voluptate omnis sapiente
+      cumque voluptatum officiis! Maiores id nemo eaque tempora vero cumque a ex
+      architecto, quo fuga officiis impedit nam nesciunt quisquam delectus natus
+      quod dolores necessitatibus earum, facilis culpa temporibus totam!
+      Dignissimos facere recusandae provident officia facilis dolorum in, odit
+      aperiam consequuntur minima, nulla aliquid obcaecati voluptatum inventore?
+      Voluptatem eius distinctio doloribus natus laboriosam doloremque maxime.
+      Earum dicta, adipisci quidem, placeat omnis in a laborum veniam, sapiente
+      aut commodi eveniet cupiditate rem quasi debitis saepe ducimus explicabo
+      natus quaerat quos voluptatem tempora repellat perspiciatis sequi? Iste
+      officiis aliquam fugit possimus, corporis illum adipisci veritatis. Modi
+      eaque, natus aliquam quibusdam est magni aspernatur consequuntur ad
+      cupiditate voluptate, error repellendus saepe vero vitae neque possimus,
+      voluptatum dignissimos quaerat eveniet ut. Commodi consequatur delectus
+      provident repellat atque libero accusantium iure, laborum, nisi facilis
+      inventore ipsam. Error sapiente similique reprehenderit, consequatur amet
+      et possimus corporis adipisci perspiciatis nam sint ipsa nisi cupiditate
+      debitis ea minus, laboriosam voluptatum nostrum pariatur qui? Nisi aperiam
+      similique ut nam delectus. Itaque rem et maxime ipsam nulla modi, magnam
+      ullam blanditiis nam porro cum sed at minus. Est, nam assumenda molestiae
+      voluptatibus consequatur saepe hic illo! Dolorum quas excepturi tempora
+      eos blanditiis in, dignissimos, veritatis reprehenderit soluta aliquid
+      reiciendis asperiores eum, ullam neque voluptatem et assumenda facere sit.
+      Sit enim consectetur harum quia voluptate nam quaerat, voluptatem error
+      dolor ex, reprehenderit aperiam aspernatur tempora ut ipsa at excepturi in
+      laudantium? Quasi hic debitis sit veritatis adipisci. Cupiditate error,
+      facilis nam qui sunt sit eos hic ratione atque dolor eligendi voluptate
+      voluptatibus, velit maxime deserunt, labore ullam blanditiis incidunt ex
+      officia expedita. Delectus officia obcaecati dicta porro quam saepe
+      commodi doloribus ullam suscipit velit. Necessitatibus reiciendis officia,
+      esse, possimus ratione ipsa quidem adipisci numquam neque in dolore. Earum
+      aut neque nostrum adipisci blanditiis sunt eaque debitis veniam ex!
+    </p>
+
+    <!-- forms -->
+
+    <!-- input types => text, password, email, checkbox, radio, dropdown, imagebutton, submit, reset, fileLoader -->
+
+    <hr />
+    <hr />
+    <form>
+      <label for="first-name">first Name</label>
+      <!-- name is important for submission -->
+      <input
+        type="text"
+        name="first-name"
+        id="first-name"
+        required
+        value="Omar"
+      />
+      <br />
+      <label for="second-name">second Name</label>
+      <input
+        type="text"
+        name="second-name"
+        id="second-name"
+        placeholder="ex. Mosleh"
+      />
+      <br />
+      <label for="user-email">Your Email</label>
+      <input type="email" name="user-email" id="user-email" />
+      <br />
+      <label for="user-password">Your password</label>
+      <input type="password" name="user-password" id="user-password" />
+      <br />
+      <input type="checkbox" id="city-one" name="city-one" value="Alex" />
+      <label for="city-one">Alex</label>
+      <input type="checkbox" id="city-two" name="city-two" value="Cairo" />
+      <label for="city-two">Cairo</label>
+      <input type="checkbox" id="city-three" name="city-three" value="sharm" />
+      <label for="city-three">Sharm</label>
+      <br />
+      <input type="radio" id="male" name="gender" value="male" />
+      <label for="male">Male</label>
+      <input type="radio" id="female" name="gender" value="female" />
+      <label for="female">Female</label>
+      <input type="radio" id="other" name="gender" value="other" />
+      <label for="other">Other</label>
+      <br />
+      <label for="country"> Country </label>
+      <select name="country" id="country">
+        <option value="Egypt">Egypt</option>
+        <option value="USA">USA</option>
+        <option value="UAE" selected>UAE</option>
+        <option value="SA">SA</option>
+      </select>
+      <br />
+      <input type="button" value="click me" />
+      <button type="button">click me</button>
+      <br />
+      <label for="user-file">upload your CV</label>
+      <input type="file" name="user-file" id="user-file">
+      <br>
+      <textarea name="feedback" id="feedback" cols="30" rows="10"></textarea>
+      <br>
+      <input type="submit" value="submit form" />
+      <input type="reset" value="reset form" />
+    </form>
+
+    <hr />
+
+    <hr />
+    <span class="my-span" id="span-one"> hello </span>
+    <span class="my-span">egypt</span>
+    <span class="my-span">alex</span>
+    <p>
+      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Optio rerum
+      eaque ab cupiditate, reprehenderit quod ratione obcaecati odit quis
+      repudiandae quidem expedita blanditiis qui error repellendus. Quisquam eum
+      beatae excepturi distinctio illo aspernatur sequi possimus culpa deleniti
+      facere doloremque error eius reprehenderit modi necessitatibus iusto
+      dolorum, praesentium, accusantium molestias. Dolorem quisquam tempora
+      impedit sit assumenda obcaecati vel odio porro explicabo autem ducimus,
+      excepturi, alias minus quos maiores optio! Vel, commodi totam non aliquid
+      et corrupti, blanditiis ipsa voluptate laudantium ab quis, cum sunt.
+      Sapiente quo veritatis, quis numquam itaque ducimus reiciendis labore
+      suscipit omnis? Odit quae eum explicabo voluptas provident.
+    </p>
+
+    <!-- slef study "image button (submit)" -->
+  </body>
+</html>

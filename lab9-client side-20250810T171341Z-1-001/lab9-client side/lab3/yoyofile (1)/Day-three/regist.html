@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>registration</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body bgcolor="lightblue">
+    <form action="Thankyou.html" method="post">
+    <h1>please fill in this form</h1>
+    <label for="fname">First Name:</label>
+    <input type="text" id="fname" name="fname" required>
+    <br><br>
+    <label for="lname">Last Name:</label>
+    <input type="text" id="lname" name="lname" required>
+    <br><br>
+     <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required>
+    <br><br>
+    <label for="password">Password:</label>
+    <input type="password" id="password" name="password">
+    <br><br>
+    <label for="rpassword">Repeat Password:</label> <input type="password" id="rpassword" >
+    <br><br>
+    <label for="bdayy">Birth Date:</label>
+    <input type="date" id="bdayy">
+    <br><br>
+    <label for="picture">please upload a picture:</label>
+    <input type="file" id="picture" >
+    <br><br>
+    <label for="1">Male
+    <input type="radio" name="gender" value="mail" id="1"></label>
+    <label for="2"> Female
+    <input type="radio" name="gender" value=" female" id="2"></label>
+     <label for="faculty">Faculty:</label>
+    <select id="faculty">
+      <option value="">Select Faculty</option>
+      <option value="pharmacy">Pharmacy</option>
+      <option value="engineering">Engineering</option>
+      <option value="cs">Computer Science</option>
+      <option value="arts">Arts</option>
+    </select><br><br>
+    <input type="checkbox" id="programming"  value="programming">
+      <label for="programming">music</label><br>
+
+      <input type="checkbox" id="reading"  value="reading">
+      <label for="reading">anime</label><br>
+
+      <input type="checkbox" id="swimming"  value="swimming">
+      <label for="swimming">gaming</label>
+      <br><br><br>
+
+    <label for="about">About you:</label><br>
+    <textarea id="about" rows="7" cols="60" placeholder="like how did u fair in your journey what are your ups and downs what are u passionate about"></textarea>
+   <br><br><br>
+    <input type="checkbox" id="agree" required>
+    <label for="agree">I agree to the terms</label>
+    <br><br>
+    <input type="submit" name="submit" id="submit">
+    <input type="reset" value="Reset">
+    </form>
+</body>
+</html>

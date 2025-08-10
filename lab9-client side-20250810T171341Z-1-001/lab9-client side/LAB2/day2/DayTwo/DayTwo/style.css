@@ -1,0 +1,245 @@
+:root{
+    --my-brown: rgb(55, 82, 82);
+    
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+html{
+    font-size: 62.5%;
+    font-size: 10px;
+}
+body{
+background-color: antiquewhite;
+}
+
+p{
+    font-size: 2rem;
+}
+
+
+/* start of specificity */
+
+
+/* p.first-p{
+    color: red;
+}
+#omar{
+    color: brown;
+}
+.first-p.my-p {
+    color: blue;
+} 
+
+/* this is not logic (id is unique)*/
+
+/*
+p#omar{
+    color:red;
+}
+p#omar.first-p{
+    color:blueviolet;
+} */
+
+
+/* end of specificity */
+
+
+
+
+/* type selector */
+/* p {
+    color : green;
+}
+
+span {
+    color: brown;
+    font-size: 20px;
+} */
+
+/* li{
+    color:greenyellow;
+} */
+
+
+/* li{
+    color: red;
+    font-size: larger;
+} */
+
+/* .first-two {
+    color:blue;
+    font-size: x-small;
+} */
+
+/* #third-li{
+    color: black;
+} */
+
+/* .list-item{
+    color:rgb(8, 66, 47);
+    font-weight: 700;
+    font-size: 25px;
+}
+span.first-two.list-item{
+    color:brown
+} */
+
+/* p.first-p , span{
+    color: green;
+} */
+
+/* same as below */
+
+/* p.first-p{
+    color: green;
+}
+span{
+    color: green;
+} */
+
+/* .big-div p{
+    color: green;
+} */
+
+/* .big-div > p{
+    color: green;
+} */
+
+/* p + span {
+    color: blue;
+    font-size: larger;
+} */
+/* p ~ span{
+    color: blue;
+    font-size: larger;
+} */
+
+/* .my-p ~ span {
+    color: red;
+} */
+
+/* ul span{
+    color: red;
+} */
+
+
+/* = total equality */
+/* [type="text"]{
+    color: green;
+    background-color: blue;
+} */
+
+/* [src^="small"]{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    object-fit: cover;
+} */
+/* [src$="jpg"]{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    object-fit: cover;
+} */
+
+/* * contains a substring */
+[src*="-image"]{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+/* $ end with */
+[href$="html"]{
+    font-size: 20px;
+    font-weight: 700;
+    color: rgb(134, 82, 82);
+    text-decoration: none;
+}
+
+/* ~ contains a word */
+span[class~="first-two"]{
+    font-size: 20px;
+    font-weight: 700;
+    color: var(--my-brown);
+    text-decoration: none;
+}
+
+[required]{
+    border: 2px solid red;
+}
+
+input[type=submit]{
+    background-color: aqua;
+}
+
+#my-btn{
+    margin: 20px;
+    display: block;
+    width:80px;
+    height: 30px;
+    background-color: rgb(37, 59, 4);
+    border:2px solid black;
+    color: white;
+    border-radius: 3px;
+    cursor: pointer;
+    font-weight: 700;
+}
+#my-btn:hover{
+    background-color: aliceblue;
+    color: rgb(37, 59, 4) ;
+    border:2px solid rgb(37, 59, 4);
+}
+
+input[type="email"]:focus{
+    background-color: aqua;
+}
+
+input[type="text"]:disabled{
+    background-color: aquamarine;
+    font-size: larger;
+    font-weight: 800;
+    background-color: aliceblue;
+}
+
+/* active(pseudo class) */
+
+span::after{
+    display: inline-block;
+    margin-left: 1cqh;
+    width: 15px;
+    height: 15px;
+    content: "->";
+    border-radius: 50%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(120, 234, 49);
+    font-size: 10px;
+}
+/* 
+li:last-child{
+    color: red;
+} */
+li:first-child{
+    background-color: brown;
+}
+li:nth-child(odd){
+    background-color: rgb(192, 185, 185);
+}
+li:nth-child(even){
+    background-color: rgb(226, 244, 200);
+}
+
+
+h1{
+    color: rgb(76, 120, 11) !important;
+}
+
+
+/* (self study):nth-of-type selectors ) */

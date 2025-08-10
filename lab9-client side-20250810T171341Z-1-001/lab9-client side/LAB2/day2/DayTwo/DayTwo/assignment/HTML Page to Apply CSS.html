@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	
+	<title> CSS magic</title>
+	<link rel="stylesheet" href="real for the html lab3.css">
+	<style>#aboutus{ 
+		color: red !important;
+
+	}</style>
+	<style>
+		#content > #aboutus{color: yellow;}
+	</style>
+</head>
+<body>
+	<div id="header" style="width: 100% ;height:60px; background-color: red;" >
+		<h1>This is the page header</h1>
+	</div>
+	<span id="linksbar" style="width: 25%;background-color: grey; float: left;">
+		<div id="loginform" >
+			User name: <input type="text"class="myclass"/>
+			</br>
+			Password: <input type="password"/>
+			<br/>
+			<input type="checkbox" /> remember me
+			<br/>
+			<button>login</button>
+		</div>
+		<h2> site menu</h2>
+		<ul class="none-bullet">
+			<li><a href="#">link1</a></li>
+			<li><a href="#">link2</a></li>
+			<li><a href="#">link3</a></li>
+			<li><a href="#">link4</a></li>
+			<li><a href="#">link5</a></li>
+		</ul>
+	</span>
+	<span id="content" style="width: 75%; background-color: pink; height: 70%;float: left;" >
+		<h2> about us</h2>
+		<p id="aboutus">
+			This is a paragraph  so if i stated direct child is  it is more specific than just id and if i flagged something with important it will become more specific than both thus having higher priority 
+			
+			This is a paragraph This is a paragraph This is a paragraph This is a paragraph This is a paragraph This is a paragraph This is a paragraph This is a paragraph This is a paragraph This is a paragraph This is a paragraph This is a paragraph This is a paragraph This is a paragraph This is a paragraph.
+		</p>
+		
+		<div id="mydiv">
+			<span class="tabled-borderd" class="mainclass"> title1</span>
+			<span class="tabled-borderd"> title2</span>
+			<span class="tabled-borderd"> title3</span>
+			<span class="tabled-borderd">titlewiwi</span>
+			<span>titlewiwispan</span>
+		</div>
+		<p class="myclass">no there wasnt any difference is this because they are in a table ?</p>
+
+	</span>
+
+
+
+</body>
+</html>

@@ -1,0 +1,4 @@
+input:focus{
+    background-color: aqua;
+}
+input:required:invalid{border: 3px solid red;}

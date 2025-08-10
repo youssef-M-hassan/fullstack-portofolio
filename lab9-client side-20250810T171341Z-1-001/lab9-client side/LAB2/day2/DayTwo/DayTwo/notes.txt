@@ -1,0 +1,5 @@
+selector {
+    property : value;
+}
+(id, class, element)
+(100, 10, 1)

@@ -1,0 +1,135 @@
+body{background-image: url(../5518891.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    padding:0;
+    margin: 0  ;
+    margin-bottom: 20px;
+
+    border: 1px solid black;}
+#title{ float: left;
+    color: white;
+    font-size: large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+
+}
+nav{background-color: rgb(43, 35, 35);
+    float: left;
+    z-index: 999;
+    width: 100%;
+    top: 0;
+padding: 0px 15px;
+position: sticky;
+text-decoration-style: none;
+}
+nav ul{
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+}
+nav ul li{
+    margin-left: 15px;
+    display: inline-block;
+    position: relative;
+
+
+}
+nav ul li a{
+    display: block;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    
+}
+
+nav ul li a:active{
+    color: green;
+}
+nav ul li a:hover{background-color: rgb(63, 14, 2);
+
+
+
+}
+#dropdown li{position: relative;
+            margin: 5px;
+            width: 180px;
+            border-radius: 0px 0px 4px 4px;
+}
+#dropdown {
+    position: absolute;
+    background-color: darkgrey;
+    display: none;
+}
+
+
+nav ul li:hover #dropdown{
+    display: block;
+}
+#dropdown a:hover{
+    background-color: rgb(63, 14, 2);
+}
+#img1{
+    position: relative;
+    padding: auto;
+    width: 100%;
+}
+#img1 img{
+    display: inline-block;
+    width: 100%;
+    height: 200px;
+}
+.textimg{
+    position: absolute;
+    font-size: small;
+    bottom: 10px;
+    
+    background-color: rgba(0, 0, 0, 0.2);
+    color: aliceblue;
+    padding: 3px;
+    z-index: 3;
+}
+.gamegallery{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    padding: 10px;
+    max-width: 900px;
+    margin: 0 auto;
+}
+.gamegallery div{
+    width: 200px;
+    height: 250px;
+    border: 1px solid black;
+    padding: 10px;
+    box-shadow: 2px 5px;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    overflow: hidden;
+}
+.gamegallery div img{
+    height: 80%;
+    width: 100%;
+
+}
+.gamegallery div h4{
+    font-size: 16;
+    margin: 0 auto;
+    padding: 10px;
+    box-shadow: 4px;
+}
+hr{height: 3px;}
+h2{ color: white;
+text-decoration: underline;
+size: 24px;
+}
+#dogma{ 
+    color:white;
+    font-size: large;
+    font-weight: 600;
+    background-color: gray;
+}
